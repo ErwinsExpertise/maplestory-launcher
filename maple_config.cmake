@@ -1,0 +1,19 @@
+set(MAPLE_CLIENT "MapleStory.exe")
+set(MAPLE_WORKING_DIR ".")
+set(MAPLE_ARGUMENTS "")
+set(MAPLE_UNPACK_MODE OFF)
+
+set(MAPLE_PATCHES
+    "0x007FE904|ascii|127.0.0.1|16"
+    "0x007FE8F4|ascii|127.0.0.1|16"
+    "0x007FE8E4|ascii|127.0.0.1|16"
+    "0x00736FF0|hex|31 C0 C3"
+    "0x0073380F|hex|31 C0 C3"
+    "0x0073384C|hex|31 C0 C2 04 00"
+    "0x00733920|hex|31 C0 C3"
+    "0x00733D91|hex|31 C0 C3"
+    "0x0070106A|hex|E9 8A 00 00 00 90"
+    "0x0041D6EE|hex|B8 01 00 00 00 C3"
+    "0x007043EC|hex|00 00 00 00"
+    "0x005C8198|hex|B8 01 00 00 00 C3"
+)

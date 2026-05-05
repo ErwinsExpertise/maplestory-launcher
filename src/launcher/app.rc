@@ -1,0 +1,30 @@
+1 ICON "app_icon.ico"
+1 24 "app.manifest"
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,0
+ PRODUCTVERSION 1,0,0,0
+ FILEFLAGSMASK 0x3fL
+ FILEFLAGS 0x0L
+ FILEOS 0x40004L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904E4"
+        BEGIN
+            VALUE "CompanyName", "MapleStory Launcher\0"
+            VALUE "FileDescription", "MapleStory Launcher\0"
+            VALUE "FileVersion", "1.0.0.0\0"
+            VALUE "InternalName", "maple_launcher\0"
+            VALUE "OriginalFilename", "maple_launcher.exe\0"
+            VALUE "ProductName", "MapleStory Launcher\0"
+            VALUE "ProductVersion", "1.0.0.0\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x0409, 1252
+    END
+END

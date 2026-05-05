@@ -1,0 +1,31 @@
+# CMake / build output
+/build/
+/build-*/
+/dist/
+/out/
+/bin/
+
+# Generated/configured output
+/generated/
+
+# Logs and temp runtime output
+*.log
+*.tmp
+*.temp
+
+# Windows crash / debug leftovers
+*.pdb
+*.ilk
+*.iobj
+*.ipdb
+
+# IDE / editor junk
+.vs/
+.idea/
+*.user
+*.suo
+*.vcxproj.user
+
+# OS junk
+Thumbs.db
+Desktop.ini
