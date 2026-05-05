@@ -30,8 +30,6 @@ KaedeEditor was extremely helpful for finding addresses and validating patch loc
 
 The launcher will automatically prefer `MapleStory.exe` in its own folder.
 
-If the client is already a prepatched executable such as `CleanLocalhostV48.exe`, the launcher will launch it directly without the unpack path.
-
 ## Build-Time Config
 
 Edit `maple_config.cmake` before building.
