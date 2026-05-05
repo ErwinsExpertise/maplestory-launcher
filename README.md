@@ -113,7 +113,6 @@ The launcher UI is intentionally simple:
 ## Current Defaults
 
 - default target: `MapleStory.exe`
-- pass-through client: `CleanLocalhostV48.exe`
 - default server target in the current config: `127.0.0.1`
 
 ## Contributing
